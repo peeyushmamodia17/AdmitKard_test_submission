@@ -1,0 +1,48 @@
+#main {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+  
+  #search {
+    width: 100%;
+    border: 1px solid #f1f1f1;
+    height: 50px;
+    font-size: 17px;
+    padding: 5px 10px;
+  }
+  .loader {
+    border: 10px solid;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-color: black transparent transparent;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    .search-result {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+      padding-left: 15px;
+      border: 1px solid #e5e5e5;
+      height: 170px;
+      background-color: #fff;
+    }
+  }
+}
+ 
+  
+  @keyframes spin {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  

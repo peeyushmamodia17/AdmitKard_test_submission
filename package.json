@@ -1,0 +1,28 @@
+{
+  "name": "admitkard_test",
+  "version": "1.0.0",
+  "description": "It is a test of Admitkard company in which wants to made a functionality of adding questions and search those questions based on the string passed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "Admitkard",
+    "Query",
+    "Topic",
+    "Tag"
+  ],
+  "author": "Peeyush Mamodia",
+  "license": "ISC",
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.10.4",
+    "node-sass-middleware": "^0.11.0"
+  }
+}

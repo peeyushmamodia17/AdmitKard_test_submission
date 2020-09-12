@@ -1,0 +1,32 @@
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+ 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+ 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 
+  <link rel="stylesheet" type="text/css" href="/css/form.css">
+<div style="text-align: center;color: red;">
+    <h4>*User can select topic from qualifying-criteria,top-colleges,top-ranking,best-result. Otherwisw it will give validation error.</h4>
+    <h4>*User can select tag1, tag2, tag3 from stanford-university, usa, admission, engineering, top. Otherwise it will give validation error. </h4>
+</div>
+
+<div class="container">
+    <div class="container5" style="margin-bottom: 100px;">
+    <div class="card">
+        <div class="card-header">
+            <h3>Add Question</h3>
+        </div>
+        <div class="card-body">
+            <form action="/question/create" method="POST">
+            <input type="text" name="query" placeholder="Enter Query" required id="name">
+            <input type="text" name="topic" placeholder="Enter Topic" required id="username1">
+            <input type="text" name="tag[0]" placeholder="Enter Tag1" required id="username1">
+            <input type="text" name="tag[1]" placeholder="Enter Tag2" required id="username1">
+            <input type="text" name="tag[2]" placeholder="Enter Tag3" required id="username1">
+            <span>
+                <input type="submit" value="Add" id="content1">
+            </span>
+
+        </form>
+        </div>
+    </div>
+</div>
+</div>
